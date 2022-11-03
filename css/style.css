@@ -107,37 +107,7 @@
  .AtrasButt{
 
  }
- .Promo_bot_1{
-  grid-row: 1;
-  grid-column: 1;
- }
- .Promo_bot_2{
-  grid-row: 1;
-  grid-column: 2;
- }
- .Promo_bot_3{
-  grid-row: 1;
-  grid-column: 3;
- }
- .Promo_bot_4{
-  grid-row: 2;
-  grid-column: 1;
- }
- .Promo_bot_5{
-  grid-row: 2;
-  grid-column: 2;
- }
- .Promo_bot_6{
-  grid-row: 2;
-  grid-column: 3;
- }
  
- .PromoCards{
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  background-color: #f7f2ea;
- }
  .PromoCard{
 
  }
