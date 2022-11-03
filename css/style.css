@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    outline: none; }
+  
+  html, body {
+    height: 100%;
+    overflow-x: hidden; }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    min-height: 100vh; }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%; }
+  
+  input, button, textarea, select {
+    font: inherit; }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word; }
+  
+  ul[role='list'], ol[role='list'] {
+    list-style: none; }
+  
+  html:focus-within {
+    scroll-behavior: smooth; }
+  
+  ::-webkit-scrollbar {
+    width: 1vw;
+    /* z-index: 200; */ }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+  
+  * {
+    font-family: gesta, sans-serif; }
+  
+  html {
+    font-size: min(max(1rem, 4vw), 36px); }
+  
+  a {
+    text-decoration: none; }
+
+
+ /* ______________________________________    */
+
+.home{
+
+}
+ .Header{
+
+ }
+.Linktree{
+    padding: 120px;
+    background-color: #f7f2ea;
+}
+    .Button_LinkTree{
+        margin: 20px;
+ }
+ .Footer{
+
+ }
+
+ /* _______________ */
+
+
+ .H_Prom{
+    padding: 60px;
+    /* display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f2ea;
+ }
+ .Botonera{
+    display: flex;
+    flex-direction: row;
+ }
