@@ -65,7 +65,7 @@
 
  }
 .Linktree{
-    padding: 120px;
+    padding: 20px 40px 20px 40px;
     background-color: #f7f2ea;
 }
     .Button_LinkTree{
@@ -79,14 +79,42 @@
 
 
  .H_Prom{
-    padding: 60px;
-    /* display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr; */
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    /* display: flex;
+    flex-direction: column; */
     background-color: #f7f2ea;
  }
  .Botonera{
     display: flex;
     flex-direction: row;
+    height: fit-content;
+    width: fit-content;
  }
+
+ .Promo_bot_1{
+  grid-row: 1;
+  grid-column: 1;
+ }
+ .Promo_bot_2{
+  grid-row: 1;
+  grid-column: 2;
+ }
+ .Promo_bot_3{
+  grid-row: 1;
+  grid-column: 3;
+ }
+ .Promo_bot_4{
+  grid-row: 2;
+  grid-column: 1;
+ }
+ .Promo_bot_5{
+  grid-row: 2;
+  grid-column: 2;
+ }
+ .Promo_bot_6{
+  grid-row: 2;
+  grid-column: 3;
+ }
+ 
